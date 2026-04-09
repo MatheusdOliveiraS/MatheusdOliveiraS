@@ -1,0 +1,65 @@
+name: Generate GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  github-metrics:
+    if: ${{ github.repository == 'MatheusdOliveiraS/MatheusdOliveiraS' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Await metrics token setup
+        if: ${{ secrets.METRICS_TOKEN == '' }}
+        run: echo "Add the METRICS_TOKEN repository secret to generate and update the metrics SVG files."
+
+      - name: Generate overview metrics
+        if: ${{ secrets.METRICS_TOKEN != '' }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/metrics-base.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: MatheusdOliveiraS
+          template: classic
+          base: header, activity, community, repositories
+          base_indepth: yes
+          config_timezone: America/Sao_Paulo
+          repositories_affiliations: owner, collaborator, organization_member
+          commits_authoring: Matheus Souza, Matheus de Oliveira Souza, MatheusdOliveiraS, 47464558+MatheusdOliveiraS@users.noreply.github.com, 47464558+MatheusZed@users.noreply.github.com, matheus.souza.gft@youse.com.br
+
+      - name: Generate language metrics
+        if: ${{ secrets.METRICS_TOKEN != '' }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/metrics-languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: MatheusdOliveiraS
+          base: ""
+          template: classic
+          config_timezone: America/Sao_Paulo
+          repositories_affiliations: owner, collaborator, organization_member
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+
+      - name: Generate contribution calendar
+        if: ${{ secrets.METRICS_TOKEN != '' }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/metrics-calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: MatheusdOliveiraS
+          base: ""
+          template: classic
+          config_timezone: America/Sao_Paulo
+          repositories_affiliations: owner, collaborator, organization_member
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year

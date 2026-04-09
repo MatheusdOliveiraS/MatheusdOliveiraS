@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="250" viewBox="0 0 800 250" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution calendar placeholder</title>
+  <desc id="desc">This placeholder will be replaced by GitHub Actions after the metrics workflow runs.</desc>
+  <rect x="0.5" y="0.5" width="799" height="249" rx="4.5" fill="#151515" stroke="#e4e2e2"/>
+  <text x="400" y="96" fill="#ffffff" font-family="Segoe UI, Ubuntu, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Contribution Calendar</text>
+  <text x="400" y="132" fill="#9f9f9f" font-family="Segoe UI, Ubuntu, sans-serif" font-size="16" text-anchor="middle">Your contribution view will appear here after the metrics workflow runs.</text>
+  <text x="400" y="160" fill="#9f9f9f" font-family="Segoe UI, Ubuntu, sans-serif" font-size="16" text-anchor="middle">This setup replaces unstable third-party public cards.</text>
+  <text x="400" y="194" fill="#79ff97" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" text-anchor="middle">Private contributions require the METRICS_TOKEN secret and the profile setting enabled on GitHub.</text>
+</svg>

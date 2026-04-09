@@ -37,13 +37,17 @@ Based in Brazil and open to remote international opportunities.
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-## GitHub Stats
+## GitHub Metrics
 
 <p align="center">
-  <img height="160" src="https://streak-stats.demolab.com?user=MatheusdOliveiraS&theme=dark" alt="GitHub streak stats" />
-  <img height="160" src="https://readme-stats-fast.vercel.app/api?username=MatheusdOliveiraS&show_icons=true&theme=dark" alt="GitHub stats" />
+  <img width="49%" src="./assets/metrics-base.svg" alt="GitHub metrics overview" />
+  <img width="49%" src="./assets/metrics-languages.svg" alt="Most used languages" />
 </p>
 
 <p align="center">
-  <img height="160" src="https://readme-stats-fast.vercel.app/api/top-langs?username=MatheusdOliveiraS&layout=compact&theme=dark" alt="Top languages" />
+  <img width="98%" src="./assets/metrics-calendar.svg" alt="Contribution calendar" />
+</p>
+
+<p align="center">
+  <sub>These cards are generated automatically by GitHub Actions.</sub>
 </p>
