@@ -8,13 +8,9 @@ Software Developer focused on building scalable APIs and web applications.
 
 Based in Brazil and open to remote international opportunities.
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/matheus-de-oliveira-souza-75b545156?utm_source=share_via&utm_content=profile&utm_medium=member_ios">
-    <img src="https://img.shields.io/badge/LinkedIn-Matheus%20Oliveira%20Souza-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:matheus.oliveira2018@outlook.com.br">
-    <img src="https://img.shields.io/badge/Email-matheus.oliveira2018%40outlook.com.br-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+<p align="center">
+  <a href="https://www.linkedin.com/in/matheus-de-oliveira-souza-75b545156/">LinkedIn</a> |
+  <a href="mailto:matheus.oliveira2018@outlook.com.br">Email</a>
 </p>
 
 ## About Me
