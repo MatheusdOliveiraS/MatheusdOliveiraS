@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="80%" src="./assets/gh-readme-header-v2.png" alt="Matheus Oliveira Souza banner" />
+  <img width="80%" src="./assets/gh-readme-header-clean.svg" alt="Matheus Oliveira Souza banner" />
 </p>
 
 ## Hi, I'm Matheus 👋
@@ -24,6 +24,13 @@ Based in Brazil and open to remote international opportunities.
 - Passionate about clean code, scalability, and continuous learning
 - Building a portfolio aligned with global remote opportunities
 
+## What I Can Help With
+
+- Designing and building scalable backend APIs
+- Developing web applications with clean and maintainable code
+- Improving performance, code quality, and developer experience
+- Collaborating with distributed teams on international products
+
 ## Tech Stack
 
 <p>
@@ -37,17 +44,9 @@ Based in Brazil and open to remote international opportunities.
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-## GitHub Metrics
+## Career Focus
 
-<p align="center">
-  <img width="49%" src="https://raw.githubusercontent.com/MatheusdOliveiraS/MatheusdOliveiraS/master/assets/metrics-base.svg" alt="GitHub metrics overview" />
-  <img width="49%" src="https://raw.githubusercontent.com/MatheusdOliveiraS/MatheusdOliveiraS/master/assets/metrics-languages.svg" alt="Most used languages" />
-</p>
-
-<p align="center">
-  <img width="98%" src="https://raw.githubusercontent.com/MatheusdOliveiraS/MatheusdOliveiraS/master/assets/metrics-calendar.svg" alt="Contribution calendar" />
-</p>
-
-<p align="center">
-  <sub>These cards are generated automatically by GitHub Actions.</sub>
-</p>
+- Backend engineering for scalable products
+- Web application development with strong user and business focus
+- Remote collaboration with international teams
+- Long-term growth in global software projects

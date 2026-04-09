@@ -1,0 +1,75 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Matheus Oliveira Souza banner</title>
+  <desc id="desc">Transparent GitHub profile banner with the text Hello, I'm Matheus and technology badges.</desc>
+  <defs>
+    <linearGradient id="panel" x1="160" y1="72" x2="950" y2="248" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C1730"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="panelStroke" x1="140" y1="92" x2="970" y2="228" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F97316" stop-opacity="0.55"/>
+      <stop offset="0.45" stop-color="#F8FAFC" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="name" x1="580" y1="115" x2="945" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD08A"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow" x="86" y="46" width="1032" height="240" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="14"/>
+      <feGaussianBlur stdDeviation="18"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0588235 0 0 0 0 0.0901961 0 0 0 0 0.164706 0 0 0 0.35 0"/>
+      <feBlend in2="SourceGraphic" result="shape"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <ellipse cx="170" cy="160" rx="90" ry="90" fill="#F97316" fill-opacity="0.12"/>
+  <ellipse cx="1025" cy="96" rx="86" ry="86" fill="#38BDF8" fill-opacity="0.12"/>
+  <ellipse cx="1032" cy="238" rx="70" ry="70" fill="#FBBF24" fill-opacity="0.12"/>
+
+  <g filter="url(#shadow)">
+    <rect x="132" y="86" width="820" height="148" rx="32" fill="url(#panel)"/>
+    <rect x="133" y="87" width="818" height="146" rx="31" stroke="url(#panelStroke)" stroke-width="2"/>
+  </g>
+
+  <text x="542" y="182" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif">
+    <tspan fill="#F8FAFC" font-size="72" font-weight="800">Hello, I'm </tspan>
+    <tspan fill="url(#name)" font-size="80" font-weight="900">Matheus!</tspan>
+  </text>
+
+  <g opacity="0.9">
+    <rect x="104" y="56" width="90" height="58" rx="18" fill="#991B1B"/>
+    <text x="149" y="93" text-anchor="middle" fill="#FEE2E2" font-size="24" font-weight="800" font-family="'Segoe UI', Arial, sans-serif">Ruby</text>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="988" y="52" width="104" height="58" rx="18" fill="#0F172A"/>
+    <rect x="989" y="53" width="102" height="56" rx="17" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="2"/>
+    <text x="1040" y="90" text-anchor="middle" fill="#7DD3FC" font-size="24" font-weight="800" font-family="'Segoe UI', Arial, sans-serif">React</text>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="76" y="212" width="104" height="58" rx="18" fill="#7C2D12"/>
+    <text x="128" y="250" text-anchor="middle" fill="#FED7AA" font-size="24" font-weight="800" font-family="'Segoe UI', Arial, sans-serif">HTML</text>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="986" y="220" width="76" height="58" rx="18" fill="#FACC15"/>
+    <text x="1024" y="258" text-anchor="middle" fill="#111827" font-size="28" font-weight="900" font-family="'Segoe UI', Arial, sans-serif">JS</text>
+  </g>
+
+  <g opacity="0.8" filter="url(#glow)">
+    <text x="72" y="187" fill="#F5D0FE" font-size="64" font-weight="700" font-family="'Segoe UI', Arial, sans-serif">{ }</text>
+  </g>
+
+  <g opacity="0.78">
+    <text x="1116" y="190" fill="#E2E8F0" font-size="54" font-weight="800" text-anchor="end" font-family="'Segoe UI', Arial, sans-serif">&lt;/&gt;</text>
+  </g>
+</svg>
