@@ -3,11 +3,15 @@
 </p>
 
 <p align="center">
-  <strong>Backend-focused Software Developer building scalable APIs and modern web applications.</strong>
+  <strong>Full Stack Software Engineer (Backend-Focused) building scalable APIs and distributed systems.</strong>
 </p>
 
 <p align="center">
-  Based in Brazil and open to remote international opportunities.
+  Ruby on Rails • React • PostgreSQL • RabbitMQ • GraphQL
+</p>
+
+<p align="center">
+  Based in Brazil • Open to Remote Opportunities
 </p>
 
 <p align="center">
@@ -16,28 +20,37 @@
   <a href="mailto:matheus.oliveira2018@outlook.com.br">Email</a>
 </p>
 
+## About Me
+Full Stack Software Engineer with 4+ years of experience building production-grade applications with a strong focus on backend engineering.
+
+I specialize in designing REST APIs, working with PostgreSQL, and building reliable systems using event-driven architecture and messaging (RabbitMQ).
+
+My experience includes fintech and insurtech systems, where I worked with payment integrations, complex business rules, and scalable distributed services.
+
 ## What I Do
+- Design and build scalable backend systems using Ruby on Rails
+- Develop and maintain REST and GraphQL APIs
+- Work with relational databases (PostgreSQL, MySQL) with performance optimization
+- Build frontend interfaces using React based on real product requirements
+- Implement event-driven systems using RabbitMQ
+- Write clean, maintainable code using TDD, RSpec, and Clean Architecture principles
 
-- Build scalable backend APIs and web applications
-- Write clean, maintainable code with product and performance in mind
-- Improve developer experience, code quality, and system organization
-- Collaborate well with distributed teams and long-term product work
 
-## Core Stack
-
+## Tech Stack
 <p align="center">
-  <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" alt="Ruby" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="Vue.js" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rails-CC0000?style=for-the-badge&logo=rubyonrails&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
 
 ## Current Focus
 
-- Backend engineering for scalable digital products
+- Backend engineering for scalable systems
+- Distributed architectures and messaging systems
 - International remote opportunities
-- Strong collaboration, clean architecture, and continuous growth
+- Continuous improvement in system design and performance
