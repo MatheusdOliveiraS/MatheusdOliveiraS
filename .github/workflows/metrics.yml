@@ -15,17 +15,19 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+      METRICS_RENDER_TOKEN: ${{ secrets.METRICS_TOKEN != '' && secrets.METRICS_TOKEN || github.token }}
     steps:
-      - name: Await metrics token setup
-        if: ${{ secrets.METRICS_TOKEN == '' }}
-        run: echo "Add the METRICS_TOKEN repository secret to generate and update the metrics SVG files."
+      - name: Notice about private metrics token
+        if: ${{ env.METRICS_TOKEN == '' }}
+        run: echo "METRICS_TOKEN is not configured. Generating public metrics with github.token only."
 
       - name: Generate overview metrics
-        if: ${{ secrets.METRICS_TOKEN != '' }}
         uses: lowlighter/metrics@latest
         with:
           filename: assets/metrics-base.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ env.METRICS_RENDER_TOKEN }}
           user: MatheusdOliveiraS
           template: classic
           base: header, activity, community, repositories
@@ -35,11 +37,10 @@ jobs:
           commits_authoring: Matheus Souza, Matheus de Oliveira Souza, MatheusdOliveiraS, 47464558+MatheusdOliveiraS@users.noreply.github.com, 47464558+MatheusZed@users.noreply.github.com, matheus.souza.gft@youse.com.br
 
       - name: Generate language metrics
-        if: ${{ secrets.METRICS_TOKEN != '' }}
         uses: lowlighter/metrics@latest
         with:
           filename: assets/metrics-languages.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ env.METRICS_RENDER_TOKEN }}
           user: MatheusdOliveiraS
           base: ""
           template: classic
@@ -51,11 +52,10 @@ jobs:
           plugin_languages_details: percentage
 
       - name: Generate contribution calendar
-        if: ${{ secrets.METRICS_TOKEN != '' }}
         uses: lowlighter/metrics@latest
         with:
           filename: assets/metrics-calendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ env.METRICS_RENDER_TOKEN }}
           user: MatheusdOliveiraS
           base: ""
           template: classic
