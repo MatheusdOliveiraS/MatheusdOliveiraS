@@ -41,13 +41,9 @@ Based in Brazil and open to remote international opportunities.
 
 <p align="center">
   <img height="160" src="https://streak-stats.demolab.com?user=MatheusdOliveiraS&theme=dark" alt="GitHub streak stats" />
-  <img height="160" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=MatheusdOliveiraS&show_icons=true&theme=dark" alt="GitHub stats" />
+  <img height="160" src="https://readme-stats-fast.vercel.app/api?username=MatheusdOliveiraS&show_icons=true&theme=dark" alt="GitHub stats" />
 </p>
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=MatheusdOliveiraS&layout=compact&theme=dark" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MatheusdOliveiraS&theme=github-dark" alt="GitHub activity graph" />
+  <img height="160" src="https://readme-stats-fast.vercel.app/api/top-langs?username=MatheusdOliveiraS&layout=compact&theme=dark" alt="Top languages" />
 </p>
