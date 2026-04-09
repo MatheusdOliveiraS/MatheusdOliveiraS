@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="80%" src="./assets/gh-readme-header.png" alt="Matheus Oliveira Souza banner" />
+  <img width="80%" src="./assets/gh-readme-header-v2.png" alt="Matheus Oliveira Souza banner" />
 </p>
 
 ## Hi, I'm Matheus 👋
@@ -40,12 +40,12 @@ Based in Brazil and open to remote international opportunities.
 ## GitHub Metrics
 
 <p align="center">
-  <img width="49%" src="./assets/metrics-base.svg" alt="GitHub metrics overview" />
-  <img width="49%" src="./assets/metrics-languages.svg" alt="Most used languages" />
+  <img width="49%" src="https://raw.githubusercontent.com/MatheusdOliveiraS/MatheusdOliveiraS/master/assets/metrics-base.svg" alt="GitHub metrics overview" />
+  <img width="49%" src="https://raw.githubusercontent.com/MatheusdOliveiraS/MatheusdOliveiraS/master/assets/metrics-languages.svg" alt="Most used languages" />
 </p>
 
 <p align="center">
-  <img width="98%" src="./assets/metrics-calendar.svg" alt="Contribution calendar" />
+  <img width="98%" src="https://raw.githubusercontent.com/MatheusdOliveiraS/MatheusdOliveiraS/master/assets/metrics-calendar.svg" alt="Contribution calendar" />
 </p>
 
 <p align="center">
